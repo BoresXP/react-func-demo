@@ -1,0 +1,50 @@
+{
+	"name": "template-react-app",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack --mode=production",
+		"build-dev": "webpack --mode=development",
+		"watch": "webpack --watch --mode=development",
+		"start": "webpack-dev-server --mode=development",
+		"test": "jest"
+	},
+	"dependencies": {
+		"@types/react-router-dom": "^4.3.1",
+		"abortcontroller-polyfill": "^1.2.1",
+		"cross-fetch": "^3.0.0",
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3",
+		"react-router-dom": "^4.3.1",
+		"styled-components": "^4.1.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.3.1",
+		"@babel/preset-react": "^7.0.0",
+		"@babel/preset-typescript": "^7.1.0",
+		"@types/jest": "^23.3.10",
+		"@types/react": "^16.7.17",
+		"@types/react-dom": "^16.0.11",
+		"@types/styled-components": "^4.1.4",
+		"babel-loader": "^8.0.5",
+		"babel-plugin-styled-components": "^1.10.0",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"fork-ts-checker-webpack-plugin": "^0.5.2",
+		"jest": "^23.6.0",
+		"jest-dom": "^3.0.0",
+		"react-testing-library": "^5.4.2",
+		"source-map-loader": "^0.2.4",
+		"ts-jest": "^23.10.5",
+		"ts-node": "^7.0.1",
+		"tslint": "^5.12.0",
+		"tslint-config-prettier": "^1.17.0",
+		"tslint-react": "^3.6.0",
+		"typescript": "^3.2.2",
+		"url-loader": "^1.1.2",
+		"webpack": "^4.27.1",
+		"webpack-cli": "^3.1.2",
+		"webpack-dev-server": "^3.1.10"
+	}
+}
